@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Zangirolami_News>
+            <active>true</active> <!--abilita/disabilita modulo -->
+            <codePool>local</codePool> <!-- indica la cartella in cui trovare i moduli -->
+        </Zangirolami_News>
+    </modules>
+</config>

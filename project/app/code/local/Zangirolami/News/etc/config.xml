@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Zangirolami_News> <!-- Nome del modulo -->
+            <version>0.1.0</version>
+        </Zangirolami_News>
+    </modules>
+
+    <global>
+        <blocks>
+            <zangirolami_news>
+                <class>Zangirolami_News_Block</class>
+            </zangirolami_news>
+        </blocks>
+        <helpers>
+            <zangirolami_news>
+                <class>Zangirolami_News_Block</class>
+            </zangirolami_news>
+        </helpers>
+        <models>
+            <zangirolami_news>
+                <class>Zangirolami_News_Block</class>
+                <resourceModel>zangirolami_news_resource</resourceModel>
+            </zangirolami_news>
+            <zangirolami_news_resource>
+                <class>Zangirolami_News_Model</class>
+                <entities>
+                    <category>
+                        <table>zangirolami_news_category</table> <!-- tabella utilizzata -->
+                    </category>
+                    <story>
+                        <table>zangirolami_news_story</table> <!-- tabella utilizzata -->
+                    </story>
+                </entities>
+            </zangirolami_news_resource>
+        </models>
+        <resources>
+            <zangirolami_news_setup>
+                <setup>
+                    <module>Zangirolami_News</module>
+                </setup>
+            </zangirolami_news_setup>
+        </resources>
+    </global>
+
+    <frontend>
+
+    </frontend>
+    <admin>
+
+    </admin>
+    <adminhtml>
+
+    </adminhtml>
+    <default>
+
+    </default>
+</config>
