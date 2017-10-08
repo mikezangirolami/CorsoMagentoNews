@@ -27,7 +27,7 @@ class Zangirolami_News_Model_Category extends Mage_Core_Model_Abstract {
     /**
      * _construct
      */
-    public function _construct(){ //Construct di Variant
+    protected function _construct(){ //Construct di Variant
         $this->_init("zangirolami_news/category");
     }
 

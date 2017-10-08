@@ -14,16 +14,16 @@
         </blocks>
         <helpers>
             <zangirolami_news>
-                <class>Zangirolami_News_Block</class>
+                <class>Zangirolami_News_Helper</class>
             </zangirolami_news>
         </helpers>
         <models>
             <zangirolami_news>
-                <class>Zangirolami_News_Block</class>
+                <class>Zangirolami_News_Model</class>
                 <resourceModel>zangirolami_news_resource</resourceModel>
             </zangirolami_news>
             <zangirolami_news_resource>
-                <class>Zangirolami_News_Model</class>
+                <class>Zangirolami_News_Model_resource</class>
                 <entities>
                     <category>
                         <table>zangirolami_news_category</table> <!-- tabella utilizzata -->
