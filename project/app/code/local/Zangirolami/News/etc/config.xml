@@ -44,14 +44,41 @@
     </global>
 
     <frontend>
-
+        <translate>
+            <modules>
+                <zangirolami_news>
+                    <files>
+                        <default>Zangirolami_News.csv</default>
+                    </files>
+                </zangirolami_news>
+            </modules>
+        </translate>
     </frontend>
+
     <admin>
-
+        <routers>
+            <zangirolami_news>
+                <use>admin</use>
+                <args>
+                    <module>Zangirolami_News</module>
+                    <frontName>zangirolami_news</frontName>
+                </args>
+            </zangirolami_news>
+        </routers>
     </admin>
-    <adminhtml>
 
+    <adminhtml>
+        <translate>
+            <modules>
+                <zangirolami_news>
+                    <files>
+                        <default>Zangirolami_News.csv</default>
+                    </files>
+                </zangirolami_news>
+            </modules>
+        </translate>
     </adminhtml>
+
     <default>
 
     </default>

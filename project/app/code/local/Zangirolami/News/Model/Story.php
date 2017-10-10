@@ -33,9 +33,37 @@ class Zangirolami_News_Model_Story extends Mage_Core_Model_Abstract {
         $this->_init("zangirolami_news/story");
     }
 
+    /**
+     * _beforeSave
+     *
+     * @return $this
+     */
     protected function _beforeSave(){
         parent::_beforeSave();
         $this->setUpdateAt(Mage::getSingleton("core/date")->gmtDate());
         return $this;
+    }
+
+    /**
+     * getCategory
+     * Get Category object.
+     * @return bool|Mage_Core_Model_Abstract
+     */
+    public function getCategory(){
+        $category = Mage::getModel("zangirolami_news/category")->load(1);
+        if($category && $category->getId()) { //se esiste e se ha un id
+            return $category;
+        }
+        return false; //è come se fosse in un else
+    }
+
+    /**
+     * setCategory
+     *
+     * Set Category Id from Category object
+     * @param Zangirolami_News_Model_Abstract $category
+     */
+    public function setCategory(Zangirolami_News_Model_Abstract $category){
+        $this->setData("category_id", $category->getId());
     }
 }
