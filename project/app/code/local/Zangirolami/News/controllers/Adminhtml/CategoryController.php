@@ -17,7 +17,8 @@ class Zangirolami_News_Adminhtml_CategoryController extends Mage_Adminhtml_Contr
      * indexAction
      */
     public function indexAction(){
-        echo "eccomi"; die();
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     /**

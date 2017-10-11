@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+    <zangirolami_news_adminhtml_category_index>
+        <reference name="content">
+            <block type="zangirolami_news/adminhtml_category" name="zangirolami_news.adminhtml.category.grid" />
+        </reference>
+    </zangirolami_news_adminhtml_category_index>
+</layout>

@@ -77,6 +77,14 @@
                 </zangirolami_news>
             </modules>
         </translate>
+
+        <layout>
+            <updates>
+                <zangirolami_news>
+                    <file>zangirolami_news.xml</file>
+                </zangirolami_news>
+            </updates>
+        </layout>
     </adminhtml>
 
     <default>
