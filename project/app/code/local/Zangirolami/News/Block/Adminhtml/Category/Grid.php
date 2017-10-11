@@ -73,8 +73,8 @@ class Zangirolami_News_Block_Adminhtml_Category_Grid extends Mage_Adminhtml_Bloc
                 "header" => $this->__("Status"),
                 "width" => 150,
                 "type" => "options",
-                "options" => Mage::getModel("zangirolami_news/source_status")->toOptionArray(),
-                "renderer" => "zangirolami_news/adminhtml_grid_renderer_status",
+                "options" => Mage::getModel("zangirolami_news/source_status")->toGridArray(),
+                "renderer" => "zangirolami_news/adminhtml_category_grid_renderer_status",
             )
         );
 
