@@ -53,6 +53,24 @@
                 </zangirolami_news>
             </modules>
         </translate>
+
+        <routers>
+            <zangirolami_news>
+                <use>standard</use>
+                <args>
+                    <module>Zangirolami_News</module>
+                    <frontName>stories</frontName>
+                </args>
+            </zangirolami_news>
+        </routers>
+
+        <layout>
+            <updates>
+                <zangirolami_news>
+                    <file>zangirolami_news.xml</file>
+                </zangirolami_news>
+            </updates>
+        </layout>
     </frontend>
 
     <admin>

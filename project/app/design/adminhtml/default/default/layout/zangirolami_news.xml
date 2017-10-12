@@ -5,4 +5,13 @@
             <block type="zangirolami_news/adminhtml_category" name="zangirolami_news.adminhtml.category.grid" />
         </reference>
     </zangirolami_news_adminhtml_category_index>
+    <zangirolami_news_adminhtml_category_edit>
+        <reference name="left">
+            <block type="zangirolami_news/adminhtml_category_edit_tabs" name="zangirolami_news.adminhtml.category.edit.tabs" />
+        </reference>
+
+        <reference name="content">
+            <block type="zangirolami_news/adminhtml_category_edit" name="zangirolami_news.adminhtml.category.edit" />
+        </reference>
+    </zangirolami_news_adminhtml_category_edit>
 </layout>

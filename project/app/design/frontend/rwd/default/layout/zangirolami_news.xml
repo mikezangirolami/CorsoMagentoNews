@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+    <zangirolami_news_list_index>
+        <reference name="content">
+            <block type="zangirolami_news/story" name="zangirolami_news.list" template="zangirolami_news/list.phtml" />
+        </reference>
+    </zangirolami_news_list_index>
+</layout>
